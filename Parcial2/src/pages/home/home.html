@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title center text-center>
+      Mis Discos
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding style="background-color: #2E282A"> 
+  <ion-card style = "background-color: rgb(237, 184, 139)">
+   <ion-row>
+    <ion-col>
+        <img  src="../assets/BrunoMarsUJAlbumCover.png" (click) = "ImagenBM()" >
+    </ion-col>
+
+    <ion-col>
+        <ion-card-content>
+            <ion-card-title>
+              
+            </ion-card-title>
+            <h3 (click) = "CanBM()">
+               Unorthodox Jukebox
+            </h3>
+            <h4 (click) = "BM()">
+               Bruno Mars
+            </h4>
+            <h5>
+               2012
+            </h5>
+            <h6 (click) = "ResBM()">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+            </h6>
+            <h6>
+                <ion-icon name="play"></ion-icon>
+            </h6>
+          </ion-card-content>
+    </ion-col>
+   </ion-row>
+    
+ </ion-card>
+
+</ion-content>
