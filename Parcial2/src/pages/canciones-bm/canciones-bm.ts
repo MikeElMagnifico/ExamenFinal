@@ -15,7 +15,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class CancionesBmPage {
 
-  Canciones;[9] = ["1.- Young Girls (3:49)",
+  Canciones = ["1.- Young Girls (3:49)",
     "2.- Locked Out of Heaven (3:54)",
     "3.- Gorilla (4:05)",
     "4.- Treasure (2:56)",
@@ -32,12 +32,6 @@ export class CancionesBmPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad CancionesBmPage');
   }
-  itemSelected(item)
-  {
-    for(let i = 0; i< 11; i++)
-    {
-      this.Canciones[i];
-    }
-  }
+
 
 }
