@@ -1,0 +1,23 @@
+<!--
+  Generated template for the CancionesM5Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title center text-center >Canciones</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding style= "background-color: #3D5A6C">
+    <ion-list >
+        <button ion-item *ngFor="let a of Canciones" style="background-color: #3D5A6C ">
+          {{ a }}
+        </button>  
+      </ion-list>
+
+</ion-content>
