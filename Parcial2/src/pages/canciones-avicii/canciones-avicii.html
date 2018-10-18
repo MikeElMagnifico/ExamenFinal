@@ -7,12 +7,16 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>cancionesAvicii</ion-title>
+    <ion-title center text-center>Canciones</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
-
+<ion-content padding style="background-color: #80FFEC">
+    <ion-list >
+        <button ion-item *ngFor="let c of Canciones" style="background-color: #80FFEC ">
+          {{ c }}
+        </button>  
+      </ion-list>
 </ion-content>

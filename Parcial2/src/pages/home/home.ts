@@ -16,6 +16,10 @@ import { ImagenPmPage } from '../imagen-pm/imagen-pm';
 import { PmPage } from '../pm/pm';
 import { ReseñasPmPage } from '../reseñas-pm/reseñas-pm';
 import { CancionesPmPage } from '../canciones-pm/canciones-pm';
+import { ImagenAviciiPage } from '../imagen-avicii/imagen-avicii';
+import { AviciiPage } from '../avicii/avicii';
+import { ReseñasAviciiPage } from '../reseñas-avicii/reseñas-avicii';
+import { CancionesAviciiPage } from '../canciones-avicii/canciones-avicii';
 
 @Component({
   selector: 'page-home',
@@ -38,45 +42,14 @@ export class HomePage {
     bio4 = PmPage;
     res4 = ReseñasPmPage;
     can4 = CancionesPmPage;
-    imagen5;
-    bio5;
-    res5;
-    can5;
+    imagen5 = ImagenAviciiPage;
+    bio5 = AviciiPage;
+    res5 = ReseñasAviciiPage;
+    can5 = CancionesAviciiPage;
   constructor(public navCtrl: NavController) {
 
   }
-  ImagenBM()
-  {
-    this.navCtrl.push(this.imagen1);
-  }
-  CanBM()
-  {
-    this.navCtrl.push(this.can1);
-  }
-  BM()
-  {
-    this.navCtrl.push(this.bio1);
-  }
-  ResBM()
-  {
-    this.navCtrl.push(this.res1);
-  }
-  ImagenM5()
-  {
-    this.navCtrl.push(this.imagen2);
-  }
-  CanM5()
-  {
-    this.navCtrl.push(this.can2);
-  }
-  M5()
-  {
-    this.navCtrl.push(this.bio2);
-  }
-  ResM5()
-  {
-    this.navCtrl.push(this.res2);
-  }
+
   Imagen(dato)
   {
     switch(dato)
@@ -84,34 +57,42 @@ export class HomePage {
       case 1: this.navCtrl.push(this.imagen3);break;
       case 2: this.navCtrl.push(this.imagen4);break;
       case 3: this.navCtrl.push(this.imagen5);break;
+      case 4: this.navCtrl.push(this.imagen2);break;
+      case 5: this.navCtrl.push(this.imagen1);break;
     }
   }
-  Can(dato)
+  Can(dato2)
   {
-    switch(dato)
+    switch(dato2)
     {
       case 1: this.navCtrl.push(this.can3);break;
       case 2: this.navCtrl.push(this.can4);break;
       case 3: this.navCtrl.push(this.can5);break;
+      case 4: this.navCtrl.push(this.can2);break;
+      case 5: this.navCtrl.push(this.can1);break;
 
     }
   }
-  Bio(dato2)
+  Bio(dato3)
   {
-    switch(dato2)
+    switch(dato3)
     {
       case 1: this.navCtrl.push(this.bio3);break;
       case 2: this.navCtrl.push(this.bio4);break;
       case 3: this.navCtrl.push(this.bio5);break;
+      case 4: this.navCtrl.push(this.bio2);break;
+      case 5: this.navCtrl.push(this.bio1);break;
     }
   }
-  Res(dato3)
+  Res(dato4)
   {
-    switch(dato3)
+    switch(dato4)
     {
       case 1: this.navCtrl.push(this.res3);break;
       case 2: this.navCtrl.push(this.res4);break;
       case 3: this.navCtrl.push(this.res5);break;
+      case 4: this.navCtrl.push(this.res2);break;
+      case 5: this.navCtrl.push(this.res1);break;
     }
   }
 }

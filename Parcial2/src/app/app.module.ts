@@ -22,6 +22,10 @@ import { PmPage } from '../pages/pm/pm';
 import { CancionesPmPage } from '../pages/canciones-pm/canciones-pm';
 import { ReseñasPmPage } from '../pages/reseñas-pm/reseñas-pm';
 import { ImagenPmPage } from '../pages/imagen-pm/imagen-pm';
+import { AviciiPage } from '../pages/avicii/avicii';
+import { CancionesAviciiPage } from '../pages/canciones-avicii/canciones-avicii';
+import { ReseñasAviciiPage } from '../pages/reseñas-avicii/reseñas-avicii';
+import { ImagenAviciiPage } from '../pages/imagen-avicii/imagen-avicii';
 
 @NgModule({
   declarations: [
@@ -42,7 +46,11 @@ import { ImagenPmPage } from '../pages/imagen-pm/imagen-pm';
     PmPage,
     CancionesPmPage,
     ReseñasPmPage,
-    ImagenPmPage
+    ImagenPmPage,
+    AviciiPage,
+    CancionesAviciiPage,
+    ReseñasAviciiPage,
+    ImagenAviciiPage
   ],
   imports: [
     BrowserModule,
@@ -67,7 +75,11 @@ import { ImagenPmPage } from '../pages/imagen-pm/imagen-pm';
     PmPage,
     CancionesPmPage,
     ReseñasPmPage,
-    ImagenPmPage
+    ImagenPmPage,
+    AviciiPage,
+    CancionesAviciiPage,
+    ReseñasAviciiPage,
+    ImagenAviciiPage
   ],
   providers: [
     StatusBar,
