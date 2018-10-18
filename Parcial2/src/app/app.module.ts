@@ -14,6 +14,10 @@ import { ImagenM5Page } from '../pages/imagen-m5/imagen-m5';
 import { M5Page } from '../pages/m5/m5';
 import { CancionesM5Page } from '../pages/canciones-m5/canciones-m5';
 import { ReseñasM5Page } from '../pages/reseñas-m5/reseñas-m5';
+import { LpPage } from '../pages/lp/lp';
+import { CancioneslpPage } from '../pages/cancioneslp/cancioneslp';
+import { ReseñaslpPage } from '../pages/reseñaslp/reseñaslp';
+import { ImagenlpPage } from '../pages/imagenlp/imagenlp';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { ReseñasM5Page } from '../pages/reseñas-m5/reseñas-m5';
     ImagenM5Page,
     M5Page,
     CancionesM5Page,
-    ReseñasM5Page
+    ReseñasM5Page,
+    LpPage,
+    CancioneslpPage,
+    ReseñaslpPage,
+    ImagenlpPage
   ],
   imports: [
     BrowserModule,
@@ -43,7 +51,11 @@ import { ReseñasM5Page } from '../pages/reseñas-m5/reseñas-m5';
     ImagenM5Page,
     M5Page,
     CancionesM5Page,
-    ReseñasM5Page
+    ReseñasM5Page,
+    LpPage,
+    CancioneslpPage,
+    ReseñaslpPage,
+    ImagenlpPage
   ],
   providers: [
     StatusBar,
