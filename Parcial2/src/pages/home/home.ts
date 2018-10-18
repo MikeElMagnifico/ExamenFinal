@@ -57,4 +57,11 @@ export class HomePage {
   {
     this.navCtrl.push(this.res2);
   }
+  Imagen(dato)
+  {
+    switch(dato)
+    {
+      case 1:
+    }
+  }
 }
