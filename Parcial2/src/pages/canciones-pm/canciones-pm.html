@@ -7,7 +7,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title center text-center>Canciones</ion-title>
+    <ion-title center text-center style="background-color: #3D5A6C">Canciones</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -15,9 +15,9 @@
 
 <ion-content padding style = "background-color: #FFF275">
     <ion-list >
-        <button ion-item *ngFor="let a of Canciones" style="background-color: #FFF275 ">
+        <ion-item *ngFor="let a of Canciones" style="background-color: #FFF275 ">
           {{ a }}
-        </button>  
+        </ion-item>
       </ion-list>
 
 </ion-content>
