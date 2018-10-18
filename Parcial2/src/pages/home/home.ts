@@ -12,6 +12,10 @@ import { ImagenlpPage } from '../imagenlp/imagenlp';
 import { LpPage } from '../lp/lp';
 import { ReseñaslpPage } from '../reseñaslp/reseñaslp';
 import { CancioneslpPage } from '../cancioneslp/cancioneslp';
+import { ImagenPmPage } from '../imagen-pm/imagen-pm';
+import { PmPage } from '../pm/pm';
+import { ReseñasPmPage } from '../reseñas-pm/reseñas-pm';
+import { CancionesPmPage } from '../canciones-pm/canciones-pm';
 
 @Component({
   selector: 'page-home',
@@ -30,10 +34,10 @@ export class HomePage {
     bio3 = LpPage;
     res3 = ReseñaslpPage;
     can3 = CancioneslpPage;
-    imagen4;
-    bio4;
-    res4;
-    can4;
+    imagen4 = ImagenPmPage;
+    bio4 = PmPage;
+    res4 = ReseñasPmPage;
+    can4 = CancionesPmPage;
     imagen5;
     bio5;
     res5;
